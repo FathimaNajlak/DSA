@@ -7,7 +7,7 @@ class Node {
 }
 
 class linkedList {
-  Node? head, tail;
+  Node? head, tail; //tail=current
 
   insertNode(int data) {
     Node newNode = Node(data);
