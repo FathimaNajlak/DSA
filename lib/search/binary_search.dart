@@ -15,7 +15,13 @@ int binarySearch(List<int> array, int target) {
 }
 
 void main() {
-  List<int> numbers = [10, 20, 30, 40, 50];
+  List<int> numbers = [
+    30,
+    40,
+    50,
+    10,
+    20,
+  ];
   int target = 30;
   int result = binarySearch(numbers, target);
 
