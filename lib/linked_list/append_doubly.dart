@@ -51,12 +51,11 @@ class DoublyLinkedlist {
 
 void main() {
   DoublyLinkedlist list = DoublyLinkedlist();
-
-  list.append(12);
-  list.append(25);
   list.append(37);
   list.append(43);
   list.append(58);
+  list.append(12);
+  list.append(25);
 
   print('forward ${list.displayForward()}');
   print('forward ${list.displayBackward()}');

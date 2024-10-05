@@ -136,13 +136,13 @@ class linkedList {
 
 void main() {
   final LinkedList = linkedList();
-  LinkedList.insertNode(1);
-  LinkedList.insertNode(2);
-  LinkedList.insertNode(3);
   LinkedList.insertNode(4);
   LinkedList.insertNode(5);
   LinkedList.insertNode(6);
   LinkedList.insertNode(2);
+  LinkedList.insertNode(1);
+  LinkedList.insertNode(2);
+  LinkedList.insertNode(3);
 
   LinkedList.middValue();
 

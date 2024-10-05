@@ -29,11 +29,11 @@ void display(Node? head) {
 
 void main() {
   List<int> array = [
-    3,
-    6,
     7,
     2,
     8,
+    3,
+    6,
   ];
 
   Node? head = arrayToLinkedlist(array);
