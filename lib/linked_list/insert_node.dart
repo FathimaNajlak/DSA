@@ -162,24 +162,3 @@ void main() {
   LinkedList.removeDuplicate();
   LinkedList.display();
 }
-
-// List<int> bubbleSort(List<int> nums) {
-//   for (int i = 0; i < nums.length - 1; i++) {
-//     for (int j = 0; j < nums.length - i - 1; j++) {
-//       // Loop until the second last unsorted element
-//       if (nums[j] > nums[j + 1]) {
-//         // Compare current element with the next
-//         int temp = nums[j];
-//         nums[j] = nums[j + 1];
-//         nums[j + 1] = temp; // Swap elements
-//       }
-//     }
-//   }
-//   return nums; // Return sorted list
-// }
-
-// void main() {
-//   List<int> nums = [5, 3, 8, 4, 2]; // Declare nums outside the function
-//   List<int> sortedNums = bubbleSort(nums);
-//   print(sortedNums); // Output: [2, 3, 4, 5, 8]
-// }
